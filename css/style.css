@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.bg1{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../image/bg-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar span{
+    color: #FEA116 ;
+    font-size: 2em;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#res{
+    font-size: 45px;
+    color: #FEA116;
+    margin-left: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+ul li{
+    padding-left: 30px;
+}
+ul li a{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+.home{
+    color: #FEA116;
+}
+.book{
+    color: #fff;
+    background-color: #FEA116;
+    padding: 12px;
+}
+
+.div1{
+       width: 35%;
+       text-align: left;
+       margin-left: 40px;
+       color: #fff;
+}
+.div1 h1{
+       padding-top: 150px;
+       font-size: 60px;
+       color: #fff;
+       margin-bottom: 20px;
+}
+.div2{
+width: 55%;
+}
+.div2 img{
+    width:95%;
+    animation: imagerotate 50s linear infinite;
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color:#f7f2f2;
+
+}
+.container{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.sec1{
+    width: 23%;
+    height: auto;
+    margin-top: 150px;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 20px;
+    transition: all 3s ease inherit;
+}
+.sec1 .fa{
+    color: blue;
+    font-size: 60px;
+    margin-bottom: 30px;
+    transition: all 3s ease inherit;
+}
+.sec1 h5{
+    margin-bottom: 20px;
+}
+/* hover start */
+.sec1:hover{
+      background-color: #FEA116;
+      color: #fff;
+}
+.sec1 .fa:hover{
+       color: #fff;
+}
+
+/* hover end */
+.container1{
+    width: 100%;
+    height: auto;
+ 
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.main-image{
+    width: 50%;
+    height: auto;
+    
+ 
+    
+}
+.main-image1{
+    width: 80%;
+    height: 45%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.image1{
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+}
+.image2{
+    width: 35%;
+    height: 70%;
+    margin-top: 70px;
+    margin-right: 70px;
+    
+}
+.image3{
+    width: 35%;
+    height: 70%;
+    margin-top: 23px;
+    margin-left: 70px;
+}
+.image4{
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.main-image img{
+      width: 100%;
+      height: 100%;
+      visibility: visible;
+      animation: saif 5s ;
+}
+.about{
+    width: 40%;
+    height: auto;
+  
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.about h5{
+    font-family:pasifico,cursive;
+    color: #FEA116;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.about h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.about h1 .fa{
+    color: #FEA116;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.about p{
+    color: gray;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.num{
+    width: 45%;
+    height: 100px;
+  
+    margin-bottom: 30px;
+    border-left: 10px solid #f6980b;
+}
+
+.num h1{
+    font-size: 70px;
+    color: #f6980b;
+    padding-left: 30px;
+}
+.number{
+    color: gray;
+    font-size: 40px;
+}
+.book1{
+    background-color: #FEA116;
+    margin-top: 60px;
+    padding: 12px;
+
+}
+.book1 a{
+    color: #fff;
+    text-decoration: none;
+}
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.video1{
+    width: 45%;
+    height: 500px;
+    background-color:#0f172b;
+}
+.video2{
+    width: 55%;
+    height: auto;
+    background-color: #0f172b;
+}
+
+.banner{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.banner h5{
+    font-family:pasifico, cursive;
+    font-size: 30px;
+    color: #f6980b;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.banner h1{
+    color: #fff;
+    font-size: 45px;
+    margin-left: 20px;
+
+}
+#inp{
+    width: 45%;
+    height: 70px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    transition: all 5s ease inherit;
+    color: black;
+}
+#inp:hover{
+    background-color: #FEA116;
+}
+#comment{
+    width: 90%;
+    height: 120px;
+    border: 3px solid black;
+    margin-bottom: 30px;
+}
+.member{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+.member h5{
+    font-family: pasifico, cursive;
+    color: #f6980b;
+    margin-left: 90px;
+    padding-top: 40px;
+    font-size: 35px;
+}
+.member h1{
+    margin-left: 70px;
+    font-size: 70px;
+}
+
+.member-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.member-div1{
+    width: 23%;
+    height: auto;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.member-div img{
+    width: 100%;
+    height: 80%;
+    border-radius: 50%;
+    visibility: visible;
+    animation: fade;
+    animation-duration: 6s;
+}
+.member-div h1{
+    font-size: 35px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.foot{
+    width: 100%;
+    height: auto;
+    background-color: #0f172b;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.foot1{
+    width: 22%;
+    height: 80%;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.foot1 h5{
+    font-family: pasifico , cursive;
+    color: #f6980b;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.foot1 p{
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#imp{
+    width: 90%;
+    height: 70px;
+    border: 3px solid black;
+}
+
+
+
+.book{
+    cursor: pointer;
+    animation: mari 5s ease-in infinite;
+}
+@keyframes mari{
+    from{
+          background-color: aqua;
+    }
+    25%{
+background-color: coral;
+    }
+    50%{
+background-color: crimson;
+    }
+    to{
+background-color: blueviolet;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: scale3d(.3,.3,.3,);
+    }
+    to{
+ opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes saif{
+         0%{
+            opacity: 0;
+            transform: scale3d(.3, .3, .3);
+         }
+         50%{
+            opacity: 1;
+         }
+}
+
+
+
+
+
+
+@keyframes imagerotate{
+    from{
+         /* transform: rotate(360deg); */
+    }
+    to{
+       transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width:600px){
+    
+ ul{
+    flex-direction: column;
+ }
+ ul li{
+    margin-bottom: 20px;
+ }
+ .div1{
+    width: 80%;
+    margin-bottom: 20px;
+ }
+
+ .div2{
+    width: 100%;
+ }
+ .bg1{
+    height: auto;
+ }
+ .sec1{
+    width: 50%;
+ }
+.main-image{
+    width: 100%;
+}
+.image1{
+    margin: 0;
+}
+.image2{
+    margin: 0;
+
+}
+.image3{
+    margin: 0;
+}
+.iamge4{
+    margin: 0;
+}
+.about{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.video1{
+    width: 100%;
+}
+.video2{
+    width: 100%;
+}
+.member{
+    width: 100%;
+}
+.member-div1{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.foot1{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width:400px){
+      
+    ul{
+        flex-direction: column;
+     }
+     ul li{
+        margin-bottom: 20px;
+     }
+     .div1{
+        width: 80%;
+        margin-bottom: 20px;
+     }
+    
+     .div2{
+        width: 100%;
+     }
+     .bg1{
+        width: 100%;
+        height: auto;
+     }
+     .sec1{
+        width: 100%;
+     }
+    .main-image{
+        width: 100%;
+    }
+    .image1{
+        margin: 0;
+    }
+    .image2{
+        margin: 0;
+    
+    }
+    .image3{
+        margin: 0;
+    }
+    .iamge4{
+        margin: 0;
+    }
+    .about{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .video{
+        width: 100%;
+    }
+    .video1{
+        width: 100%;
+    }
+    .video2{
+        width: 100%;
+    }
+
+}
